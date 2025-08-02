@@ -1,4 +1,4 @@
-package Easy;
+package Grind75.Easy;
 
 import java.util.HashMap;
 import java.util.Stack;

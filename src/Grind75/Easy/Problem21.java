@@ -1,4 +1,6 @@
-package Easy;
+package Grind75.Easy;
+
+import Grind75.ListNode;
 
 public class Problem21 {
     public static void main(String[] args) {
@@ -7,7 +9,6 @@ public class Problem21 {
 
         ListNode merged = mergeTwoLists(list1, list2);
         merged.printList();
-
 
     }
 
