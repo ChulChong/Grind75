@@ -1,6 +1,7 @@
 package Grind75.Easy;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 public class Problem20 {
@@ -12,13 +13,13 @@ public class Problem20 {
 
     public static boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
-        HashMap<Character, Character> hm = new HashMap<>();
+        Map<Character, Character> hm = new HashMap<>();
         hm.put(')', '(');
         hm.put('}', '{');
         hm.put(']', '[');
         for (char c : s.toCharArray()) {
             if (hm.containsKey(c)) {
-                if (st.empty() || st.pop() != hm.get(c)) {
+                if (st.isEmpty() || st.pop() != hm.get(c)) {
                     return false;
                 }
             } else {
