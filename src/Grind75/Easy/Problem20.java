@@ -13,21 +13,22 @@ public class Problem20 {
 
     public static boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
-        Map<Character, Character> hm = new HashMap<>();
-        hm.put(')', '(');
-        hm.put('}', '{');
-        hm.put(']', '[');
         for (char c : s.toCharArray()) {
-            if (hm.containsKey(c)) {
-                if (st.isEmpty() || st.pop() != hm.get(c)) {
+
+            if (c == '(' || c == '{' || c == '[') {
+                st.push(c);
+            } else {
+                if (st.isEmpty()) return false;
+                char top = st.pop();
+                if (c == ')' && top != '(') {
+                    return false;
+                } else if (c == '}' && top != '{') {
+                    return false;
+                } else if (c == ']' && top != '[') {
                     return false;
                 }
-            } else {
-                st.push(c);
             }
         }
         return st.isEmpty();
     }
-
-
 }
