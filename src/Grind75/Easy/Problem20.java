@@ -1,7 +1,5 @@
 package Grind75.Easy;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
 
 public class Problem20 {
