@@ -22,26 +22,18 @@ public class TreeNode {
     }
 
     //Print by BFS
-    public void printTree() {
+    public static void printTree(TreeNode root) {
+        if (root == null) return;
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(this);
-
+        queue.add(root);
         while (!queue.isEmpty()) {
-            int size = queue.size();
-
-
-            for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
-                if (node == null) {
-                    System.out.print("null ");
-                    continue;
-                }
-
-                System.out.print(node.val + " ");
-                queue.offer(node.left);
-                queue.offer(node.right);
+            TreeNode curr = queue.poll();
+            if (curr != null) {
+                System.out.print(curr.val + " ");
+                queue.add(curr.left);
+                queue.add(curr.right);
             }
-            System.out.println();
         }
+        System.out.println();
     }
 }
