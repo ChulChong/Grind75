@@ -1,7 +1,6 @@
 package Grind75.Easy;
 
 import Grind75.TreeNode;
-import com.sun.source.tree.Tree;
 
 public class Problem235 {
     public static void main(String[] args) {
