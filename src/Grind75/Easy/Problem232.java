@@ -2,11 +2,11 @@ package Grind75.Easy;
 
 import java.util.Stack;
 
-public class MyQueue {
+public class Problem232 {
     Stack<Integer> inStack = new Stack<>();
     Stack<Integer> outStack = new Stack<>();
 
-    public MyQueue() {
+    public Problem232() {
 
     }
 
