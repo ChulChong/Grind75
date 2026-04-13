@@ -10,16 +10,28 @@ public class Problem242 {
 
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
-        HashMap<Character, Integer> hm = new HashMap<>();
-        for (char c : s.toCharArray()) {
-            hm.put(c, hm.getOrDefault(c, 0) + 1);
-        }
-        for (char c : t.toCharArray()) {
-            if (!hm.containsKey(c) || hm.get(c) == 0) {
-                return false;
-            }
-            hm.put(c, hm.get(c) - 1);
-        }
+
+        int[] arr = new int[26];
+        for (char c : s.toCharArray()) arr[c - 'a']++;
+        for (char c : t.toCharArray()) arr[c - 'a']--;
+
+        for (int i : arr) if (i != 0) return false;
         return true;
     }
+
+
+   /* public static boolean isAnagram(String s, String t) {
+        int[] arr = new int[26];
+        for (char c : s.toCharArray()) {
+            arr[c - 'a']++;
+        }
+        for (char c : t.toCharArray()) {
+            if (arr[c - 'a'] < 0) return false;
+            else arr[c - 'a']--;
+        }
+        for (int i : arr) {
+            if (i != 0) return false;
+        }
+        return true;
+    }                      */
 }
