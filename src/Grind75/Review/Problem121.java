@@ -11,8 +11,8 @@ public class Problem121 {
         int maxProfit = 0;
         int lowestSeen = Integer.MAX_VALUE;
         for (int i : prices) {
-            int currProfit = i - lowestSeen;
             if (lowestSeen > i) lowestSeen = i;
+            int currProfit = i - lowestSeen;
             if (currProfit > maxProfit) maxProfit = currProfit;
         }
 
