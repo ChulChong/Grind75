@@ -14,16 +14,12 @@ public class Problem20 {
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '{' || c == '[') {
                 st.push(c);
-            } else if (c == ')' || c == '}' || c == ']') {
+            } else {
                 if (st.isEmpty()) return false;
                 char top = st.pop();
-                if (c == ')' && top != '(') {
-                    return false;
-                } else if (c == '}' && top != '{') {
-                    return false;
-                } else if (c == ']' && top != '[') {
-                    return false;
-                }
+                if (c == ')' && top != '(') return false;
+                else if (c == ']' && top != '[') return false;
+                else if (c == '}' && top != '{') return false;
             }
         }
         return st.isEmpty();
