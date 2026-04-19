@@ -1,6 +1,7 @@
 package Grind75.Review;
 
 import Grind75.TreeNode;
+import com.sun.source.tree.Tree;
 
 public class Problem226 {
     public static void main(String[] args) {
@@ -16,11 +17,10 @@ public class Problem226 {
     }
 
     public static TreeNode invertTree(TreeNode root) {
-        if(root == null) return null;
-        TreeNode temp = null;
-        temp = root.left;
-        root.left = root.right;
-        root.right = temp;
+        if (root == null) return null;
+        TreeNode temp = root.right;
+        root.right = root.left;
+        root.left = temp;
         invertTree(root.left);
         invertTree(root.right);
         return root;
