@@ -12,13 +12,15 @@ public class Problem141 {
     public static boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
-        while (slow != null && fast != null && fast.next != null) {
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
             if (slow == fast) return true;
         }
         return false;
     }
+
+
     /*public static boolean hasCycle(ListNode head) {
         HashSet<ListNode> hs = new HashSet<>();
         while(head.next != null){
