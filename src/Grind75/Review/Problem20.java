@@ -16,10 +16,10 @@ public class Problem20 {
                 st.push(c);
             } else {
                 if (st.isEmpty()) return false;
-                char top = st.pop();
-                if (c == ')' && top != '(') return false;
-                else if (c == ']' && top != '[') return false;
-                else if (c == '}' && top != '{') return false;
+                char stPop = st.pop();
+                if (c == ')' && stPop != '(' || c == '}' && stPop != '{' || c == ']' && stPop != '[') {
+                    return false;
+                }
             }
         }
         return st.isEmpty();
