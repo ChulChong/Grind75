@@ -19,7 +19,7 @@ public class Problem543 {
         if (root == null) return 0;
         int left = helper(root.left);
         int right = helper(root.right);
-        longestDiameter = Math.max((left + right), longestDiameter);
+        longestDiameter = Math.max(longestDiameter, left + right);
         return Math.max(left, right) + 1;
     }
 }
