@@ -16,11 +16,11 @@ public class Problem1 {
         for (int i = 0; i < nums.length; i++) {
             int remain = target - nums[i];
             if (hm.containsKey(remain)) {
-                return new int[]{hm.get(remain), i};
+                return new int[]{i, hm.get(remain)};
             } else {
                 hm.put(nums[i], i);
             }
         }
-        return null;
+        return new int[]{};
     }
 }
