@@ -9,18 +9,17 @@ public class Problem125 {
     public static boolean isPalindrome(String s) {
         int left = 0;
         int right = s.length() - 1;
-        while (left < right) {
-            char leftCharacter = s.charAt(left);
-            char rightCharacter = s.charAt(right);
-            if (!Character.isLetterOrDigit(leftCharacter)) {
+        while (left <= right) {
+            char leftChracter = s.charAt(left);
+            char rightCarhacter = s.charAt(right);
+            if (!Character.isLetterOrDigit(leftChracter)) {
                 left++;
-            } else if (!Character.isLetterOrDigit(rightCharacter)) {
+            } else if (!Character.isLetterOrDigit(rightCarhacter)) {
                 right--;
             } else {
-                if (Character.toLowerCase(leftCharacter) == Character.toLowerCase(rightCharacter)) {
-                    left++;
-                    right--;
-                } else return false;
+                if (Character.toLowerCase(leftChracter) != Character.toLowerCase(rightCarhacter)) return false;
+                left++;
+                right--;
             }
         }
         return true;
