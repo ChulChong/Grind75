@@ -3,36 +3,37 @@ package Grind75.Review;
 import java.util.Stack;
 
 public class Problem232 {
-    Stack<Integer> inStack = new Stack<>();
-    Stack<Integer> outStack = new Stack<>();
+    private final Stack<Integer> st;
+    private final Stack<Integer> que;
 
     public Problem232() {
-
+        this.st = new Stack<>();
+        this.que = new Stack<>();
     }
 
     public void push(int x) {
-        inStack.push(x);
+        st.push(x);
     }
 
     public int pop() {
-        if (outStack.isEmpty()) {
-            while (!inStack.isEmpty()) {
-                outStack.push(inStack.pop());
+        if (que.isEmpty()) {
+            while (!st.isEmpty()) {
+                que.push(st.pop());
             }
         }
-        return outStack.pop();
+        return que.pop();
     }
 
     public int peek() {
-        if (outStack.isEmpty()) {
-            while (!inStack.isEmpty()) {
-                outStack.push(inStack.pop());
+        if (que.isEmpty()) {
+            while (!st.isEmpty()) {
+                que.push(st.pop());
             }
         }
-        return outStack.peek();
+        return que.peek();
     }
 
     public boolean empty() {
-        return inStack.isEmpty() && outStack.isEmpty();
+        return st.empty() && que.empty();
     }
 }
