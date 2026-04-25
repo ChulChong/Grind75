@@ -17,16 +17,12 @@ public class Problem235 {
 
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) return null;
-        TreeNode curr = root;
-        while (curr != null) {
-            if (curr.val < p.val && curr.val < q.val) {
-                curr = curr.right;
-            } else if (curr.val > p.val && curr.val > q.val) {
-                curr = curr.left;
-            } else {
-                return curr;
-            }
+        if (p.val < root.val && q.val < root.val) {
+            return lowestCommonAncestor(root.left, p, q);
+        } else if (p.val > root.val && q.val > root.val) {
+            return lowestCommonAncestor(root.right, p, q);
+        } else {
+            return root;
         }
-        return null;
     }
 }
