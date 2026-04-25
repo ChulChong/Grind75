@@ -10,21 +10,19 @@ public class Problem733 {
     }
 
     public static int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        if (image[sr][sc] != color) {
-            helper(image, sr, sc, image[sr][sc], color);
-        }
+        if (color == image[sr][sc]) return image;
+        helper(image, sr, sc, color, image[sr][sc]);
         return image;
     }
 
-    public static void helper(int[][] image, int sr, int sc, int originalColor, int changeColor) {
-        if (sr < 0 || sr >= image.length || sc < 0 || sc >= image[0].length || image[sr][sc] != originalColor) {
-            return;
-        }
-        image[sr][sc] = changeColor;
-        helper(image, sr + 1, sc, originalColor, changeColor);
-        helper(image, sr - 1, sc, originalColor, changeColor);
-        helper(image, sr, sc + 1, originalColor, changeColor);
-        helper(image, sr, sc - 1, originalColor, changeColor);
+    public static void helper(int[][] image, int sr, int sc, int color, int originalColor) {
+        if (sc < 0 || sc >= image[0].length || sr < 0 || sr >= image.length) return;
+        if (image[sr][sc] != originalColor) return;
+        image[sr][sc] = color;
+        helper(image, sr + 1, sc, color, originalColor);
+        helper(image, sr - 1, sc, color, originalColor);
+        helper(image, sr, sc + 1, color, originalColor);
+        helper(image, sr, sc - 1, color, originalColor);
     }
 
 
