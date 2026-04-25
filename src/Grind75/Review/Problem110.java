@@ -5,6 +5,7 @@ import Grind75.TreeNode;
 public class Problem110 {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
+        TreeNode.printTree(root);
         System.out.println(isBalanced(root));
     }
 

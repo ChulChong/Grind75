@@ -1,9 +1,6 @@
 package Grind75;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class TreeNode {
     public int val;
@@ -24,32 +21,40 @@ public class TreeNode {
     }
 
     public static void printTree(TreeNode root) {
-        if (root == null) {
-            System.out.println("[]");
-            return;
-        }
+        int height = getHeight(root);
+        int colWidth = 4; // 노드당 칸 너비 (필요시 조정)
+        int width = ((1 << height) - 1) * colWidth;
 
-        // 1. 최상단 루트 노드는 뼈대 없이 바로 출력!
-        System.out.println(root.val);
+        char[][] grid = new char[height * 2 - 1][width];
+        for (char[] row : grid) Arrays.fill(row, ' ');
 
-        // 2. 자식 노드가 있다면 본격적인 뼈대 그리기 작전 시작!
-        if (root.left != null || root.right != null) {
-            printNode(root.left, "", root.right == null);
-            printNode(root.right, "", true);
+        fill(grid, root, 0, 0, width - 1, colWidth);
+
+        for (char[] row : grid) {
+            System.out.println(new String(row).replaceAll("\\s+$", ""));
         }
     }
 
-    private static void printNode(TreeNode node, String prefix, boolean isTail) {
+    private static int getHeight(TreeNode node) {
+        if (node == null) return 0;
+        return 1 + Math.max(getHeight(node.left), getHeight(node.right));
+    }
+
+    private static void fill(char[][] grid, TreeNode node, int row, int left, int right, int colWidth) {
         if (node == null) return;
+        int mid = (left + right) / 2;
+        String val = String.valueOf(node.val);
+        int start = mid - val.length() / 2;
+        for (int i = 0; i < val.length(); i++) grid[row][start + i] = val.charAt(i);
 
-        // 현재 노드의 뼈대와 값을 출력!
-        System.out.println(prefix + (isTail ? "└── " : "├── ") + node.val);
-
-        // 자식 노드가 하나라도 존재하면 다음 레벨로 전진!
-        if (node.left != null || node.right != null) {
-            String nextPrefix = prefix + (isTail ? "    " : "│   ");
-            printNode(node.left, nextPrefix, node.right == null);
-            printNode(node.right, nextPrefix, true);
+        if (node.left != null) {
+            grid[row + 1][(left + mid) / 2] = '/';
+            fill(grid, node.left, row + 2, left, mid - 1, colWidth);
+        }
+        if (node.right != null) {
+            grid[row + 1][(mid + right) / 2] = '\\';
+            fill(grid, node.right, row + 2, mid + 1, right, colWidth);
         }
     }
+
 }
