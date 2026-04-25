@@ -9,15 +9,15 @@ public class Problem110 {
     }
 
     public static boolean isBalanced(TreeNode root) {
-        return getHeight(root) != -1;
+        return getHeight(root) == -1 ? false : true;
     }
 
     private static int getHeight(TreeNode node) {
         if (node == null) return 0;
         int left = getHeight(node.left);
         int right = getHeight(node.right);
-        if (left == -1 || right == -1 || Math.abs((left - right)) > 1) return -1;
-
+        if (left == -1 || right == -1) return -1;
+        if (Math.abs(left - right) > 1) return -1;
         return Math.max(left, right) + 1;
     }
 }
