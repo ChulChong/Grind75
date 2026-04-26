@@ -11,16 +11,14 @@ public class Problem206 {
 
     public static ListNode reverseList(ListNode head) {
         if (head == null) return null;
-
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
-            ListNode right = curr.next;
+            ListNode next = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = right;
+            curr = next;
         }
-
         return prev;
     }
 }

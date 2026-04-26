@@ -22,9 +22,7 @@ public class ListNode {
             System.out.print(head.val + " -> ");
             head = head.next;
         }
-        if (head == null) {
-            System.out.print("End");
-        }
+        System.out.println("End");
     }
 }
 
