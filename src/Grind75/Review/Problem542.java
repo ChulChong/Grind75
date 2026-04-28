@@ -21,7 +21,7 @@ public class Problem542 {
                 }
             }
         }
-        int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        int[][] dirs = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
         while (!queue.isEmpty()) {
             int[] current = queue.poll();
