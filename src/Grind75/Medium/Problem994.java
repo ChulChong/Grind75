@@ -33,6 +33,7 @@ public class Problem994 {
                 int nc = current[1] + dir[1];
                 if (nr < 0 || nr >= grid.length || nc < 0 || nc >= grid[0].length || grid[nr][nc] != 1) {
                     continue;
+
                 }
                 grid[nr][nc] = grid[current[0]][current[1]] + 1;
                 minutes = Math.max(minutes, grid[nr][nc] - 2);
