@@ -1,6 +1,7 @@
 package Grind75.Medium;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
@@ -13,11 +14,15 @@ public class Problem973 {
 
     public static int[][] kClosest(int[][] points, int k) {
         int[][] ans = new int[k][points[0].length];
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
+        /*PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
             int distA = a[0] * a[0] + a[1] * a[1];
             int distB = b[0] * b[0] + b[1] * b[1];
             return distA - distB;
-        });
+        });*/
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>(
+                Comparator.comparingInt(a -> a[0] * a[0] + a[1] * a[1])
+        );
 
         for (int[] point : points) {
             pq.add(point);
