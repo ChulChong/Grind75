@@ -7,11 +7,12 @@ import java.util.*;
 public class Problem102 {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
-        System.out.println(levelOrder(root));
+        Problem102 pb102 = new Problem102();
+        System.out.println(pb102.levelOrder(root));
     }
 
 
-    public static List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         if (root == null) return ans;
         Queue<TreeNode> queue = new LinkedList<>();
