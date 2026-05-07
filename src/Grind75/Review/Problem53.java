@@ -7,11 +7,11 @@ public class Problem53 {
     }
 
     public static int maxSubArray(int[] nums) {
-        int maxSum = nums[0];
+        int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
         int i = 0;
         while (i < nums.length) {
-            currentSum = currentSum + nums[i];
+            currentSum = nums[i] + currentSum;
             maxSum = Math.max(currentSum, maxSum);
             if (currentSum < 0) currentSum = 0;
             i++;
