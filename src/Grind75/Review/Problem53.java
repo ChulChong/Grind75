@@ -9,12 +9,9 @@ public class Problem53 {
     public static int maxSubArray(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
-        int i = 0;
-        while (i < nums.length) {
-            currentSum = nums[i] + currentSum;
-            maxSum = Math.max(currentSum, maxSum);
-            if (currentSum < 0) currentSum = 0;
-            i++;
+        for (int num : nums) {
+            currentSum = Math.max(num, currentSum + num);
+            maxSum = Math.max(maxSum, currentSum);
         }
         return maxSum;
     }
