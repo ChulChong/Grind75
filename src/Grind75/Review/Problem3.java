@@ -1,6 +1,7 @@
 package Grind75.Review;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class Problem3 {
     public static void main(String[] args) {
@@ -9,18 +10,17 @@ public class Problem3 {
     }
 
     public static int lengthOfLongestSubstring(String s) {
-        HashSet<Character> hs = new HashSet<>();
         int left = 0;
-        int right = 0;
-        int ans = 0;
-        while (left < s.length() && right < s.length()) {
-            if (!hs.contains(s.charAt(left))) {
-                hs.add(s.charAt(left++));
-            } else {
-                hs.remove(s.charAt(right++));
+        HashSet<Character> hs = new HashSet<>();
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            while (hs.contains(s.charAt(i))) {
+                hs.remove(s.charAt(left));
+                left++;
             }
-            ans = Math.max(ans, hs.size());
+            hs.add(s.charAt(i));
+            count = Math.max(count, i - left + 1);
         }
-        return ans;
+        return count;
     }
 }
