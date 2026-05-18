@@ -34,7 +34,7 @@ public class Problem409 {
         int totalLength = 0;
         boolean isOdd = false;
         for (char c : s.toCharArray()) {
-            arr[c]++;
+            arr[c - 'a']++;
         }
         for (int i : arr) {
             if (i == 0) continue;
