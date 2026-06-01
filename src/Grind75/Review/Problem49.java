@@ -13,13 +13,15 @@ public class Problem49 {
 
     public static List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> hm = new HashMap<>();
-
         for (String s : strs) {
             char[] arr = s.toCharArray();
             Arrays.sort(arr);
             String key = new String(arr);
-            hm.putIfAbsent(key, new ArrayList<>());
-            hm.get(key).add(s);
+            if (hm.containsKey(key)) {
+                hm.get(key).add(s);
+            } else {
+                hm.put(key, new ArrayList<>(Arrays.asList(s)));
+            }
         }
         return new ArrayList<>(hm.values());
     }
