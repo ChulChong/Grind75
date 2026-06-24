@@ -19,12 +19,27 @@
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
+| [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
+| [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 ## Two Pointers
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [0696-count-binary-substrings](https://github.com/ChulChong/Grind75/tree/master/0696-count-binary-substrings) |
+## Greedy
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 <!---LeetCode Topics End-->
