@@ -19,6 +19,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ChulChong/Grind75/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
@@ -54,5 +55,6 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ChulChong/Grind75/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
