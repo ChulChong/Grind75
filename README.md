@@ -24,6 +24,7 @@
 | [0001-two-sum](https://github.com/ChulChong/Grind75/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ChulChong/Grind75/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [1710-maximum-units-on-a-truck](https://github.com/ChulChong/Grind75/tree/master/1710-maximum-units-on-a-truck) |
 | [2895-minimum-processing-time](https://github.com/ChulChong/Grind75/tree/master/2895-minimum-processing-time) |
@@ -72,4 +73,8 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ChulChong/Grind75/tree/master/0003-longest-substring-without-repeating-characters) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ChulChong/Grind75/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
