@@ -11,6 +11,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ChulChong/Grind75/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0412-fizz-buzz](https://github.com/ChulChong/Grind75/tree/master/0412-fizz-buzz) |
 | [0696-count-binary-substrings](https://github.com/ChulChong/Grind75/tree/master/0696-count-binary-substrings) |
@@ -39,6 +40,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [0696-count-binary-substrings](https://github.com/ChulChong/Grind75/tree/master/0696-count-binary-substrings) |
 ## Greedy
@@ -76,5 +78,6 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ChulChong/Grind75/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
