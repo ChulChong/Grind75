@@ -1,14 +1,15 @@
 class LRUCache {
-    HashMap<Integer,Node> hm = new HashMap<>();
+    HashMap<Integer, Node> hm = new HashMap<>();
     Node head = new Node(0, 0);
     Node tail = new Node(0, 0);
     int capacity;
+    int size;
 
-    class Node{
+    class Node {
         int key, val;
         Node prev, next;
-        
-        Node(int key, int val){
+
+        Node(int key, int val) {
             this.key = key;
             this.val = val;
         }
@@ -19,9 +20,9 @@ class LRUCache {
         head.next = tail;
         tail.prev = head;
     }
-    
+
     public int get(int key) {
-        if(hm.containsKey(key)){
+        if (hm.containsKey(key)) {
             Node node = hm.get(key);
             remove(node);
             insertToFront(node);
@@ -29,32 +30,35 @@ class LRUCache {
         }
         return -1;
     }
-    
+
     public void put(int key, int value) {
         Node node = new Node(key, value);
-        if(hm.containsKey(key)){
+        if (hm.containsKey(key)) {
             remove(hm.get(key));
             hm.put(key, node);
             insertToFront(node);
-        }else{
-            if(capacity>hm.size()){
+        } else {
+            if (capacity > size) {
                 insertToFront(node);
                 hm.put(key, node);
-            }else{
+                size++;
+            } else {
                 hm.remove(tail.prev.key);
                 remove(tail.prev);
+                size--;
                 hm.put(key, node);
                 insertToFront(node);
+                size++;
             }
         }
     }
 
-    private void remove(Node node){
+    private void remove(Node node) {
         node.prev.next = node.next;
         node.next.prev = node.prev;
     }
 
-    private void insertToFront(Node node){
+    private void insertToFront(Node node) {
         Node temp = head.next;
         node.next = temp;
         node.prev = head;
