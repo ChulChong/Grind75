@@ -2,10 +2,8 @@ class Solution {
     public String longestPalindrome(String s) {
         String answer = "";
         for (int i = 0; i < s.length(); i++) {
-            int[] arr = new int[3];
-            int[] arr2 = new int[3];
-            arr = expand(s, i, i);
-            arr2 = expand(s, i, i + 1);
+            int[] arr = expand(s, i, i);
+            int[] arr2 = expand(s, i, i + 1);
             if (arr[2] > answer.length()) {
                 answer = s.substring(arr[0], arr[1]);
             }
