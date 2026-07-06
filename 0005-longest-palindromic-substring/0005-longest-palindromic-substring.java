@@ -1,25 +1,25 @@
 class Solution {
     public String longestPalindrome(String s) {
-        String answer = "";
+        String word = "";
         for (int i = 0; i < s.length(); i++) {
-            int[] arr = expand(s, i, i);
-            int[] arr2 = expand(s, i, i + 1);
-            if (arr[2] > answer.length()) {
-                answer = s.substring(arr[0], arr[1]);
+            int[] odd = expand(s, i, i);
+            int[] even = expand(s, i, i + 1);
+            if (word.length() < odd[2]) {
+                word = s.substring(odd[0], odd[1]);
             }
-            if (arr2[2] > answer.length()) {
-                answer = s.substring(arr2[0], arr2[1]);
+            if (word.length() < even[2]) {
+                word = s.substring(even[0], even[1]);
             }
-
         }
-        return answer;
+        return word;
     }
 
-    public int[] expand(String s, int left, int right) {
+    private int[] expand(String s, int left, int right) {
         while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             left--;
             right++;
         }
-        return new int[] { left + 1, right, right - left - 1 };
+        return new int[] { left+1, right, right - left - 1 };
     }
+
 }
