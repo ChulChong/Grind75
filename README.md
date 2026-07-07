@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ChulChong/Grind75/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/ChulChong/Grind75/tree/master/0048-rotate-image) |
 | [0412-fizz-buzz](https://github.com/ChulChong/Grind75/tree/master/0412-fizz-buzz) |
 ## String
 |  |
@@ -23,6 +24,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ChulChong/Grind75/tree/master/0001-two-sum) |
+| [0048-rotate-image](https://github.com/ChulChong/Grind75/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ChulChong/Grind75/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -90,4 +92,8 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ChulChong/Grind75/tree/master/0146-lru-cache) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/ChulChong/Grind75/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
