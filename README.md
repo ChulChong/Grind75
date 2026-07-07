@@ -16,6 +16,7 @@
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0412-fizz-buzz](https://github.com/ChulChong/Grind75/tree/master/0412-fizz-buzz) |
 | [0696-count-binary-substrings](https://github.com/ChulChong/Grind75/tree/master/0696-count-binary-substrings) |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ChulChong/Grind75/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 ## Simulation
 |  |
 | ------- |
@@ -69,6 +70,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/ChulChong/Grind75/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0146-lru-cache](https://github.com/ChulChong/Grind75/tree/master/0146-lru-cache) |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ChulChong/Grind75/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/ChulChong/Grind75/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Linked List
 |  |
@@ -100,4 +102,8 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ChulChong/Grind75/tree/master/0048-rotate-image) |
+## Counting
+|  |
+| ------- |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ChulChong/Grind75/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 <!---LeetCode Topics End-->
