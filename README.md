@@ -17,6 +17,7 @@
 | [0412-fizz-buzz](https://github.com/ChulChong/Grind75/tree/master/0412-fizz-buzz) |
 | [0696-count-binary-substrings](https://github.com/ChulChong/Grind75/tree/master/0696-count-binary-substrings) |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ChulChong/Grind75/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/ChulChong/Grind75/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 ## Simulation
 |  |
 | ------- |
@@ -32,6 +33,7 @@
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ChulChong/Grind75/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/ChulChong/Grind75/tree/master/1710-maximum-units-on-a-truck) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/ChulChong/Grind75/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/ChulChong/Grind75/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2895-minimum-processing-time](https://github.com/ChulChong/Grind75/tree/master/2895-minimum-processing-time) |
 ## Sorting
@@ -42,6 +44,7 @@
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ChulChong/Grind75/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/ChulChong/Grind75/tree/master/1710-maximum-units-on-a-truck) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/ChulChong/Grind75/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/ChulChong/Grind75/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2895-minimum-processing-time](https://github.com/ChulChong/Grind75/tree/master/2895-minimum-processing-time) |
 ## Two Pointers
@@ -74,6 +77,7 @@
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0146-lru-cache](https://github.com/ChulChong/Grind75/tree/master/0146-lru-cache) |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ChulChong/Grind75/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/ChulChong/Grind75/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/ChulChong/Grind75/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 ## Linked List
 |  |
