@@ -31,6 +31,7 @@
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ChulChong/Grind75/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0217-contains-duplicate](https://github.com/ChulChong/Grind75/tree/master/0217-contains-duplicate) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ChulChong/Grind75/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/ChulChong/Grind75/tree/master/1710-maximum-units-on-a-truck) |
@@ -42,6 +43,7 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
+| [0217-contains-duplicate](https://github.com/ChulChong/Grind75/tree/master/0217-contains-duplicate) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ChulChong/Grind75/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/ChulChong/Grind75/tree/master/1710-maximum-units-on-a-truck) |
@@ -79,6 +81,7 @@
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0146-lru-cache](https://github.com/ChulChong/Grind75/tree/master/0146-lru-cache) |
 | [0202-happy-number](https://github.com/ChulChong/Grind75/tree/master/0202-happy-number) |
+| [0217-contains-duplicate](https://github.com/ChulChong/Grind75/tree/master/0217-contains-duplicate) |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/ChulChong/Grind75/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/ChulChong/Grind75/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/ChulChong/Grind75/tree/master/2491-divide-players-into-teams-of-equal-skill) |
