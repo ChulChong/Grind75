@@ -15,6 +15,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/ChulChong/Grind75/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/ChulChong/Grind75/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ChulChong/Grind75/tree/master/0242-valid-anagram) |
 | [0271-encode-and-decode-strings](https://github.com/ChulChong/Grind75/tree/master/0271-encode-and-decode-strings) |
 | [0412-fizz-buzz](https://github.com/ChulChong/Grind75/tree/master/0412-fizz-buzz) |
@@ -61,6 +62,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
+| [0125-valid-palindrome](https://github.com/ChulChong/Grind75/tree/master/0125-valid-palindrome) |
 | [0202-happy-number](https://github.com/ChulChong/Grind75/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [0696-count-binary-substrings](https://github.com/ChulChong/Grind75/tree/master/0696-count-binary-substrings) |
