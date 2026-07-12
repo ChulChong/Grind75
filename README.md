@@ -34,6 +34,7 @@
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ChulChong/Grind75/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/ChulChong/Grind75/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/ChulChong/Grind75/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [0271-encode-and-decode-strings](https://github.com/ChulChong/Grind75/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/ChulChong/Grind75/tree/master/0347-top-k-frequent-elements) |
@@ -79,6 +80,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/ChulChong/Grind75/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 ## Hash Table
 |  |
