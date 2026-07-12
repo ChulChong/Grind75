@@ -3,9 +3,9 @@ public class Codec {
     // Encodes a list of strings to a single string.
     public String encode(List<String> strs) {
         StringBuilder sb = new StringBuilder();
-        for (String s : strs) {
-            int len = s.length();
-            sb.append(len).append("#").append(s);
+        for (String str : strs) {
+            int len = str.length();
+            sb.append(len).append('#').append(str);
         }
         return sb.toString();
     }
@@ -14,11 +14,11 @@ public class Codec {
     public List<String> decode(String s) {
         List<String> list = new ArrayList<>();
         while (s.length() > 0) {
-            int j = s.indexOf('#');
-            int len = Integer.parseInt(s.substring(0,j));
-            String word = s.substring(j+1,j+1+len);
+            int index = s.indexOf('#');
+            int len = Integer.parseInt(s.substring(0, index));
+            String word = s.substring(index + 1, index + 1 + len);
             list.add(word);
-            s = s.substring(j+1+len);
+            s = s.substring(index + 1 + len);
         }
         return list;
     }
