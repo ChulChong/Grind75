@@ -3,13 +3,11 @@ class Solution {
         int left = 0;
         int right = numbers.length-1;
         while(left < right){
-            int remain = target - numbers[left];
-            while(left< right && remain != numbers[right]) right--;
-            if(remain == numbers[right]){
+            int sum = numbers[left] + numbers[right];
+            if(sum == target){
                 return new int[]{left+1,right+1};
-            }
-            left++;
-            right = numbers.length-1;
+            }else if(sum < target)left++;
+            else right--;
         }
         return new int[]{};
     }
