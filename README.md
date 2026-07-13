@@ -30,6 +30,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ChulChong/Grind75/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/ChulChong/Grind75/tree/master/0015-3sum) |
 | [0048-rotate-image](https://github.com/ChulChong/Grind75/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
@@ -48,6 +49,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ChulChong/Grind75/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ChulChong/Grind75/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/ChulChong/Grind75/tree/master/0217-contains-duplicate) |
@@ -63,6 +65,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
+| [0015-3sum](https://github.com/ChulChong/Grind75/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/ChulChong/Grind75/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ChulChong/Grind75/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/ChulChong/Grind75/tree/master/0202-happy-number) |
