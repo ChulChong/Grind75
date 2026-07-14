@@ -14,6 +14,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ChulChong/Grind75/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/ChulChong/Grind75/tree/master/0005-longest-palindromic-substring) |
+| [0020-valid-parentheses](https://github.com/ChulChong/Grind75/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/ChulChong/Grind75/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ChulChong/Grind75/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ChulChong/Grind75/tree/master/0242-valid-anagram) |
@@ -155,4 +156,8 @@
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ChulChong/Grind75/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/ChulChong/Grind75/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
