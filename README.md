@@ -42,6 +42,7 @@
 | [0253-meeting-rooms-ii](https://github.com/ChulChong/Grind75/tree/master/0253-meeting-rooms-ii) |
 | [0271-encode-and-decode-strings](https://github.com/ChulChong/Grind75/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/ChulChong/Grind75/tree/master/0347-top-k-frequent-elements) |
+| [0704-binary-search](https://github.com/ChulChong/Grind75/tree/master/0704-binary-search) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ChulChong/Grind75/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/ChulChong/Grind75/tree/master/1710-maximum-units-on-a-truck) |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/ChulChong/Grind75/tree/master/2273-find-resultant-array-after-removing-anagrams) |
@@ -156,6 +157,7 @@
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ChulChong/Grind75/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0704-binary-search](https://github.com/ChulChong/Grind75/tree/master/0704-binary-search) |
 ## Stack
 |  |
 | ------- |
