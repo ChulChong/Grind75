@@ -5,7 +5,7 @@ class Solution {
             if (c == '(' || c == '{' || c == '[') {
                 st.push(c);
             } else {
-                if (st.size() == 0)
+                if (st.isEmpty())
                     return false;
                 char character = st.pop();
                 if (character == '(' && c == ')' ||
@@ -16,6 +16,6 @@ class Solution {
                     return false;
             }
         }
-        return st.size() == 0;
+        return st.isEmpty();
     }
 }
