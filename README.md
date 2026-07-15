@@ -127,6 +127,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ChulChong/Grind75/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/ChulChong/Grind75/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/ChulChong/Grind75/tree/master/0271-encode-and-decode-strings) |
 ## Doubly-Linked List
 |  |
@@ -162,4 +163,5 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ChulChong/Grind75/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/ChulChong/Grind75/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
